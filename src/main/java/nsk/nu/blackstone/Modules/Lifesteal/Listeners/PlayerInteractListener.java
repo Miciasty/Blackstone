@@ -57,7 +57,7 @@ public class PlayerInteractListener implements Listener {
         } else if (isLifestealItem(offHand)) {
             usedItem = offHand;
             isMain = false;
-        }
+        } 
 
         if (usedItem == null) return;
 
