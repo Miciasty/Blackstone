@@ -1,0 +1,27 @@
+
+enabled: false
+
+healthPerHeart: 2       # 2 health  = 1 heart
+maxHealth: 40           # 40 health = 20 hearts
+                        # minHealth = healthPerHeart
+lighting:
+    enabled: false
+    type: DAMAGE        # DAMAGE - normal lighting (damage)
+                        # VISUAL - only visual effect (no damage)
+    position: HIGHEST   # HIGHEST - strikes at the highest block above the player's location
+                        # LOWEST  - strikes at the lowest solid ground below the player's location
+
+item:
+    name: <red>Heart
+    lore:
+        - "Someone's heart"
+        - ""
+        - "<yellow><bold>[RMB]<reset> to gain"
+        - "an additional heart."
+
+    material: PAPER
+    model_data: 1537
+    stackable: false
+
+    type: DROP      # DROP - drops on player's death
+                    # SET  - automatically increases killer's health

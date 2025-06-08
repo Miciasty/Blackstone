@@ -1,0 +1,38 @@
+
+
+
+
+
+#Command:
+#    unauthorised:   "<gradient:#FF8C19:#FF198C>You don't have permission to use this command.</gradient>"
+#
+#    Spawn:
+#        success:    "<gradient:#63E798:#63E7DA>Pedestal <pedestal> has been successfully moved."
+#        failure:    "<gradient:#FF8C19:#FF198C>Pedestal <pedestal> does not exist.</gradient>"
+#
+#    Recipe:
+#        success: "<gradient:#63E798:#63E7DA>Pedestal <pedestal> has been successfully moved."
+#        blocked: "<gradient:#63E798:#63E7DA>Someone is already updating this <pedestal> recipe.</gradient>"
+#
+#Events:
+#    ClickHologramEvent:
+#        SuccessfullyCrafted:
+#            title:  ""
+#            subtitle: "<gradient:#63E798:#63E7DA>You successfully crafted new item!</gradient>"
+#        PlayerLackResources:
+#            title: "<red>-- ⚠ --</red>"
+#            subtitle: "<gradient:#FF8C19:#FF198C>You don't have required materials to craft this item.</gradient>"
+#
+#    CreatePedestal:
+#        exists:         "<gradient:#E0E763:#E7B963>Pedestal <pedestal> already exist.</gradient>"
+#        success:        "<gradient:#63E798:#63E7DA>Pedestal <pedestal> has been successfully created.</gradient>"
+#        IOException:    "<gradient:#63E798:#63E7DA>Error saving pedestal config file <pedestal>. Check console for detailed information.</gradient>"
+#
+#    DeletePedestal:
+#        success: "<gradient:#63E798:#63E7DA>Pedestal <pedestal> has been successfully deleted.</gradient>"
+#        failure: "<gradient:#FF8C19:#FF198C>Pedestal <pedestal> does not exist.</gradient>"
+#
+#    ChangeStatusPedestal:
+#        success:        "<gradient:#63E798:#63E7DA>Pedestal <pedestal> has been successfully <type>d.</gradient>"
+#        failure:        "<gradient:#FF8C19:#FF198C>Pedestal <pedestal> does not exist.</gradient>"
+#        wrongArgument:  "<gradient:#FF8C19:#FF198C>Correct command: /pedestal [enable/disable] <pedestal></gradient>"

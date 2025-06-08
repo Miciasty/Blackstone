@@ -1,0 +1,16 @@
+name: Blackstone
+version: '1.0'
+main: nsk.nu.blackstone.Plugin
+api-version: '1.20'
+prefix: Nasaka
+authors: [ Miciasty ]
+website: https://nasaka.dev/
+
+commands:
+    blackstone:
+        description: Unknown
+        aliases:
+            - bstone
+            - bs
+            - blackstone
+        usage: /blackstone ...

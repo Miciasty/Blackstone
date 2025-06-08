@@ -1,0 +1,13 @@
+
+enable: true
+
+max_deaths: 6           # Maximum deaths
+gamemode: SPECTATOR     # Game mode player gains on the last death.
+
+auto_respawn: true      # Respawn after death
+auto_ban:
+    enabled: false      # Ban on the last death.
+    permission_bypass: nsk.blackstone.auto_ban.bypass
+
+death_message: DEATH_MESSAGE
+ban_message: DEATH_BAN_MESSAGE

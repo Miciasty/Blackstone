@@ -1,0 +1,57 @@
+
+Tags:
+
+    # Supported color representations:
+    # - #000000
+    # - #000
+    # - 000000
+    # - 000
+    # - AAAAAA
+    # - AAA
+    # - aaaaaa
+    # - aaa
+
+    primary:    "#9863E7"
+    secondary:  "#4498DB"
+    ascent:     "#63E798"
+    ascent2:    "#FDDE6D"
+
+    # --- # --- # --- # --- # --- # --- # --- # --- # --- # --- # --- # --- # --- # --- # --- # --- #
+    #
+    #   To use tags in translation file use: <primary> to open tag and <-primary> to close a tag
+    #   for messages that doesn't use gradients.
+    #
+    # --- # --- # --- # --- # --- # --- # --- # --- # --- # --- # --- # --- # --- # --- # --- # --- #
+    #
+    #   Simple message example:
+    #
+    #   SuccessfullyCrafted:
+    #       title: ""
+    #       subtitle: "<ascent>You successfully crafted new item!<-ascent>"
+    #
+
+    # --- # --- # --- # --- # --- # --- # --- # --- # --- # --- # --- # --- # --- # --- # --- # --- #
+    #
+    #   To use gradient tags in translation file use: <gprimary> to open custom color tag.
+    #
+    # --- # --- # --- # --- # --- # --- # --- # --- # --- # --- # --- # --- # --- # --- # --- # --- #
+    #
+    #   Gradient message example:
+    #
+    #   PlayerLackResources:
+    #       title:      ""
+    #       subtitle:   "<gradient:<gprimary>:<gsecondary>>You don't have required materials to craft this item.</gradient>"
+    #
+
+    # --- # --- # --- # --- # --- # --- # --- # --- # --- # --- # --- # --- # --- # --- # --- # --- #
+    #
+    #   You can as well use gradient and default tags at the same time.
+    #
+    # --- # --- # --- # --- # --- # --- # --- # --- # --- # --- # --- # --- # --- # --- # --- # --- #
+    #
+    #   Complex message example:
+    #
+    #   PlayerLackResources:
+    #       title:      "<red>-- ⚠ --</red>"
+    #       subtitle:   "<gradient:<gprimary>:<gsecondary>>You don't have <ascent2>required materials<-ascent2> to craft this item.</gradient>"
+    #

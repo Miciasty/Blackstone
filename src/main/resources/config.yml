@@ -1,0 +1,7 @@
+
+Configuration:
+
+    # Number of available threads assigned for Blackstone
+    # Note: Blackstone always uses a dedicated async thread for database operations to avoid race conditions when loading and saving player data, in addition to the threads configured below.
+    BlackstoneFactory:
+        default-async-workers: 3

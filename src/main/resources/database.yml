@@ -1,0 +1,10 @@
+database:
+    dialect: org.hibernate.dialect.MySQL8Dialect
+    hbm2ddl: update
+
+    address: localhost
+    port: 3306
+    database: blackstone
+
+    username: root
+    password: mypassword
